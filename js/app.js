@@ -9,6 +9,11 @@ previews.forEach((preview) => {
         Swal.fire({
             imageUrl: originalSrc,
             showConfirmButton: false,
+            width: 'auto',
+
+            background: '#c7cbcf',
+            allowOutsideClick: true,
+            timer: '5000',
         });
     });
 });
